@@ -1,0 +1,64 @@
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 150px);
+    gap: 0;
+    grid-template-areas:
+        "zone1 zone1 zone2 zone3"
+        "zone4 zone5 zone5 zone3"
+        "zone6 zone7 zone8 zone8"
+        "zone6 zone9 zone9 zone10";
+
+
+}
+
+#piece01 {
+    grid-area: zone1;
+
+}
+
+#piece02 {
+    grid-area: zone2;
+
+}
+
+#piece03 {
+    grid-area: zone3;
+
+}
+
+#piece04 {
+    grid-area: zone4;
+
+}
+
+#piece05 {
+    grid-area: zone5;
+
+}
+
+#piece06 {
+    grid-area: zone6;
+}
+
+#piece07 {
+    grid-area: zone7;
+}
+
+#piece08 {
+    grid-area: zone8;
+}
+
+#piece09 {
+    grid-area: zone9;
+}
+
+#piece10 {
+    grid-area: zone10;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

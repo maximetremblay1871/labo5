@@ -1,0 +1,51 @@
+#conteneur{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(6,150px);
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "aside main main"
+    "aside main main"
+    "aside main main"
+    "footer footer footer";
+    
+}
+header{
+    grid-area: header;
+    background-color: gainsboro;
+    border: 2px white solid;
+    padding: 10px;
+    padding-top: 65px;
+    
+}
+nav{
+    grid-area: nav;
+    border:2px white solid;
+    background-color: gainsboro;
+    padding: 10px;
+    padding-top: 65px;
+}
+main{
+    grid-area: main;
+    border:white 2px solid;
+    background-color: gainsboro;
+    margin-left: 2px;
+    padding: 10px;
+    padding-top: 65px;
+}
+aside{
+    grid-area: aside;
+    border:white solid 2px;
+    background-color: gainsboro;
+    padding: 10px;
+    padding-top: 65px;
+}
+footer{
+    grid-area: footer;
+    border:2px white solid;
+    background-color: gainsboro;
+    padding: 10px;
+    padding-top: 65px;
+}

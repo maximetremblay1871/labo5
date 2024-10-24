@@ -1,0 +1,49 @@
+.conteneur {
+    display: table;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 600px;
+    height: 225px;
+    gap: 0;
+}
+
+.rouge {
+    background-color: red;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.vert {
+    background-color: lightgreen;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.grille1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    width: 600px;
+    height: 225px;
+    gap: 0;
+}
+
+.grille2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    width: 600px;
+    height: 225px;
+    gap: 1px;
+}
